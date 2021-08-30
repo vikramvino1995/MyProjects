@@ -1,0 +1,159 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Select round trip with valid source and destination.",
+        "description": "",
+        "id": "user-should-able-to-book-airline-ticket.;select-round-trip-with-valid-source-and-destination.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1742100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should launch chrome and search Nordica Airlines, select the URL.",
+            "match": {
+              "location": "AirlineBooking.user_should_launch_chrome_and_search_for_Nordica_Airlines_select_the_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 94400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should click the round trip radio",
+            "match": {
+              "location": "AirlineBooking.user_should_click_the_round_trip_radio_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1475100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should select the valid source",
+            "match": {
+              "location": "AirlineBooking.userShouldSelectTheValidSource(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "SrcLocation",
+                  "SrcCode"
+                ]
+              },
+              {
+                "cells": [
+                  "chennai",
+                  "c2"
+                ]
+              },
+              {
+                "cells": [
+                  "bangalore",
+                  "b2"
+                ]
+              },
+              {
+                "cells": [
+                  "madurai",
+                  "m2"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 144400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User should select the valid destination",
+            "match": {
+              "location": "AirlineBooking.user_should_select_the_valid_destination(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "DestLocation",
+                  "DestCode"
+                ]
+              },
+              {
+                "cells": [
+                  "tiruvannamalai",
+                  "t01"
+                ]
+              },
+              {
+                "cells": [
+                  "tiruchy",
+                  "t02"
+                ]
+              },
+              {
+                "cells": [
+                  "tirupathi",
+                  "t03"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User should select the start date and return date of travel",
+            "match": {
+              "location": "AirlineBooking.user_should_select_the_start_date_and_return_date_of_travel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User should select the find flights button",
+            "match": {
+              "location": "AirlineBooking.user_should_select_the_find_flights_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "List of available flights should be displayed",
+            "match": {
+              "location": "AirlineBooking.list_of_available_flights_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User should able to book airline ticket.",
+    "description": "",
+    "id": "user-should-able-to-book-airline-ticket.",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/airlineBooking.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,143 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 26,
+        "name": "All types of customers should able to search valid product using search Bar",
+        "description": "",
+        "id": "all-types-of-customers(men-women-kids)-should-able-to-search-their-desired-product-in-zalando.co.uk.;all-types-of-customers-should-able-to-search-valid-product-using-search-bar;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10809064200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Customer should able to Launch GC Browser and enter Zalando Url \"https://www.zalando.co.uk/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.zalando.co.uk/\"",
+                  "offset": 64
+                }
+              ],
+              "location": "ProductSearch.browser(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7712652600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should select the Customer Type as Women and search for womenProduct in search bar \"Jean Jacket\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Jean Jacket\"",
+                  "offset": 88
+                }
+              ],
+              "location": "ProductSearch.womenAsCustomer(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 436683800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should able to view the searched women product list",
+            "match": {
+              "location": "ProductSearch.verify_WomenProductsList()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13033265200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should revert back to Homepage, select the Customer Type as Men and search for menProduct in search bar\"Polo Shirts\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Polo Shirts\"",
+                  "offset": 108
+                }
+              ],
+              "location": "ProductSearch.menAsCustomer(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 833940400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should able to view the searched men product list",
+            "match": {
+              "location": "ProductSearch.verify_MenProductsList()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10750098800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User should revert back to Homepage ,select the Customer Type as Kids and search for kidsProduct \"t-Shirts\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"t-Shirts\"",
+                  "offset": 97
+                }
+              ],
+              "location": "ProductSearch.kidsAsCustomer(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 569052600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User should able to view the searched kids productlist",
+            "match": {
+              "location": "ProductSearch.verify_kidsproductlist()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 302057500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User should able to close the browser.",
+            "match": {
+              "location": "ProductSearch.browserClose()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "All types of Customers(Men,Women,Kids) should able to search their desired product in Zalando.co.uk.",
+    "description": "",
+    "id": "all-types-of-customers(men-women-kids)-should-able-to-search-their-desired-product-in-zalando.co.uk.",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature File/ProductSearch.feature",
+    "tags": []
+  }
+]

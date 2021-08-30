@@ -1,0 +1,534 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10183566900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "User should able to enter valid Details",
+        "description": "",
+        "id": "user-should-able-to-enter-the-details-in-homepage;user-should-able-to-enter-valid-details",
+        "after": [
+          {
+            "result": {
+              "duration": 111000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.takeSnap2(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 4218894200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14775300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should able to visit the website",
+            "match": {
+              "location": "TestLeaf.userShouldAbleToVisitTheWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2363979400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should able to enter valid email",
+            "match": {
+              "location": "TestLeaf.userShouldAbleToEnterValidEmail()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 219064700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should able to enter valid name",
+            "match": {
+              "location": "TestLeaf.userShouldAbleToEnterValidName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 477684200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should able to enter valid phone",
+            "match": {
+              "location": "TestLeaf.userShouldAbleToEnterValidPhone()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 301208500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should able to enter valid course",
+            "match": {
+              "location": "TestLeaf.userShouldAbleToEnterValidCourse()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 323402500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should able to enter valid mesg",
+            "match": {
+              "location": "TestLeaf.userShouldAbleToEnterValidMesg()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User able to click submit",
+            "match": {
+              "location": "TestLeaf.userAbleToClickSubmit()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User should able to enter the details in homepage",
+    "description": "",
+    "id": "user-should-able-to-enter-the-details-in-homepage",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/TestLeaf.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9004338800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "User should able click the about test leaf option",
+        "description": "",
+        "id": "user-should-able-to-select-the-options-present-in-homepage;user-should-able-click-the-about-test-leaf-option",
+        "after": [
+          {
+            "result": {
+              "duration": 31300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.takeSnap2(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 4371428600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5922400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should be in test leaf website",
+            "match": {
+              "location": "TestLeaf.userShouldBeInTestLeafWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1930584000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should able to click the about test leaf option",
+            "match": {
+              "location": "TestLeaf.userShouldAbleToClickTheAboutTestLeafOption()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 340922700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should be in about us page",
+            "match": {
+              "location": "TestLeaf.userShouldBeInAboutUsPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7797311200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "User should able click the courses option",
+        "description": "",
+        "id": "user-should-able-to-select-the-options-present-in-homepage;user-should-able-click-the-courses-option",
+        "after": [
+          {
+            "result": {
+              "duration": 31500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.takeSnap2(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 753383100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 30007900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should be in test leaf website",
+            "match": {
+              "location": "TestLeaf.userShouldBeInTestLeafWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3075878200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User should able to click the courses option",
+            "match": {
+              "location": "TestLeaf.userShouldAbleToClickTheCoursesOption()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 318240100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should be in all courses page",
+            "match": {
+              "location": "TestLeaf.userShouldBeInAllCoursesPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7377807800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "User should able click the Blog option",
+        "description": "",
+        "id": "user-should-able-to-select-the-options-present-in-homepage;user-should-able-click-the-blog-option",
+        "after": [
+          {
+            "result": {
+              "duration": 34600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.takeSnap2(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 304354700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 51103000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User should be in test leaf website",
+            "match": {
+              "location": "TestLeaf.userShouldBeInTestLeafWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2252770300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User should able to click the Blog option",
+            "match": {
+              "location": "TestLeaf.userShouldAbleToClickTheBlogOption()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 235809300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User should be in Blog  page",
+            "match": {
+              "location": "TestLeaf.userShouldBeInBlogPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7493100600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "User should able click the Consulting option",
+        "description": "",
+        "id": "user-should-able-to-select-the-options-present-in-homepage;user-should-able-click-the-consulting-option",
+        "after": [
+          {
+            "result": {
+              "duration": 24800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.takeSnap2(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 587215700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 124023700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User should be in test leaf website",
+            "match": {
+              "location": "TestLeaf.userShouldBeInTestLeafWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2645471800,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User should able to click the Consulting option",
+            "match": {
+              "location": "TestLeaf.userShouldAbleToClickTheConsultingOption()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9049300,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User should be in Consulting  page",
+            "match": {
+              "location": "TestLeaf.userShouldBeInConsultingPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7881795300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "User should able click the Contact Us option",
+        "description": "",
+        "id": "user-should-able-to-select-the-options-present-in-homepage;user-should-able-click-the-contact-us-option",
+        "after": [
+          {
+            "result": {
+              "duration": 30000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.takeSnap2(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 709963100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 388061500,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User should be in test leaf website",
+            "match": {
+              "location": "TestLeaf.userShouldBeInTestLeafWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2392955300,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User should able to click the Contact Us option",
+            "match": {
+              "location": "TestLeaf.userShouldAbleToClickTheContactUsOption()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6077100,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User should be in Contact  page",
+            "match": {
+              "location": "TestLeaf.userShouldBeInContactPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User should able to select the options present in homepage",
+    "description": "",
+    "id": "user-should-able-to-select-the-options-present-in-homepage",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/TestLeaf2.feature",
+    "tags": []
+  }
+]

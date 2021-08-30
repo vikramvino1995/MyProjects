@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="170" started-at="2021-04-29T15:24:55Z" finished-at="2021-04-29T15:24:55Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="170" started-at="2021-04-29T15:24:55Z" finished-at="2021-04-29T15:24:55Z">
+      <class name="org.test.ExecutionOrder2">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:org.test.ExecutionOrder2@46d56d67]" name="beforeClass" is-config="true" duration-ms="3" started-at="2021-04-29T15:24:55Z" finished-at="2021-04-29T15:24:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.test.ExecutionOrder2@46d56d67]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-04-29T15:24:55Z" finished-at="2021-04-29T15:24:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:org.test.ExecutionOrder2@46d56d67]" name="test3" duration-ms="3" started-at="2021-04-29T15:24:55Z" finished-at="2021-04-29T15:24:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.test.ExecutionOrder2@46d56d67]" name="afterMethod" is-config="true" duration-ms="2" started-at="2021-04-29T15:24:55Z" finished-at="2021-04-29T15:24:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.test.ExecutionOrder2@46d56d67]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-04-29T15:24:55Z" finished-at="2021-04-29T15:24:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test4()[pri:0, instance:org.test.ExecutionOrder2@46d56d67]" name="test4" duration-ms="7" started-at="2021-04-29T15:24:55Z" finished-at="2021-04-29T15:24:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.test.ExecutionOrder2@46d56d67]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-04-29T15:24:55Z" finished-at="2021-04-29T15:24:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:org.test.ExecutionOrder2@46d56d67]" name="afterClass" is-config="true" duration-ms="1" started-at="2021-04-29T15:24:55Z" finished-at="2021-04-29T15:24:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- org.test.ExecutionOrder2 -->
+      <class name="org.test.ExecutionOrder">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:org.test.ExecutionOrder@14acaea5]" name="beforeSuite" is-config="true" duration-ms="32" started-at="2021-04-29T15:24:55Z" finished-at="2021-04-29T15:24:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:org.test.ExecutionOrder2@46d56d67]" name="beforeSuite" is-config="true" duration-ms="1" started-at="2021-04-29T15:24:55Z" finished-at="2021-04-29T15:24:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:org.test.ExecutionOrder@14acaea5]" name="beforeTest" is-config="true" duration-ms="0" started-at="2021-04-29T15:24:55Z" finished-at="2021-04-29T15:24:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:org.test.ExecutionOrder2@46d56d67]" name="beforeTest" is-config="true" duration-ms="0" started-at="2021-04-29T15:24:55Z" finished-at="2021-04-29T15:24:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:org.test.ExecutionOrder@14acaea5]" name="beforeClass" is-config="true" duration-ms="4" started-at="2021-04-29T15:24:55Z" finished-at="2021-04-29T15:24:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.test.ExecutionOrder@14acaea5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-04-29T15:24:55Z" finished-at="2021-04-29T15:24:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:org.test.ExecutionOrder@14acaea5]" name="test1" duration-ms="30" started-at="2021-04-29T15:24:55Z" finished-at="2021-04-29T15:24:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.test.ExecutionOrder@14acaea5]" name="afterMethod" is-config="true" duration-ms="9" started-at="2021-04-29T15:24:55Z" finished-at="2021-04-29T15:24:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.test.ExecutionOrder@14acaea5]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-04-29T15:24:55Z" finished-at="2021-04-29T15:24:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:org.test.ExecutionOrder@14acaea5]" name="test2" duration-ms="7" started-at="2021-04-29T15:24:55Z" finished-at="2021-04-29T15:24:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.test.ExecutionOrder@14acaea5]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-04-29T15:24:55Z" finished-at="2021-04-29T15:24:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:org.test.ExecutionOrder@14acaea5]" name="afterClass" is-config="true" duration-ms="2" started-at="2021-04-29T15:24:55Z" finished-at="2021-04-29T15:24:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:org.test.ExecutionOrder@14acaea5]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-04-29T15:24:55Z" finished-at="2021-04-29T15:24:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:org.test.ExecutionOrder2@46d56d67]" name="afterTest" is-config="true" duration-ms="1" started-at="2021-04-29T15:24:55Z" finished-at="2021-04-29T15:24:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:org.test.ExecutionOrder@14acaea5]" name="afterSuite" is-config="true" duration-ms="0" started-at="2021-04-29T15:24:56Z" finished-at="2021-04-29T15:24:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:org.test.ExecutionOrder2@46d56d67]" name="afterSuite" is-config="true" duration-ms="0" started-at="2021-04-29T15:24:56Z" finished-at="2021-04-29T15:24:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- org.test.ExecutionOrder -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
